@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quiz Maker\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2018-07-18 13:15+0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n_noop:1,2;_x\n"
+"X-Poedit-Basepath: .\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-quiz-maker-admin.php:141
+#: ../admin/class-quiz-maker-admin.php:142
+#: ../admin/class-quiz-maker-admin.php:310
+#: ../admin/partials/quiz-maker-admin-display.php:23
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:80
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:10
+msgid "Questions"
+msgstr "Questions"
+
+#: ../admin/class-quiz-maker-admin.php:152
+#: ../admin/class-quiz-maker-admin.php:153
+#: ../admin/class-quiz-maker-admin.php:323
+#: ../admin/partials/quiz-maker-admin-display.php:27
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:10
+msgid "Question Categories"
+msgstr "Question Categories"
+
+#: ../admin/class-quiz-maker-admin.php:163
+#: ../admin/class-quiz-maker-admin.php:164
+#: ../admin/partials/quiz-maker-admin-display.php:31
+msgid "Quizes"
+msgstr "Quizes"
+
+#: ../admin/class-quiz-maker-admin.php:174
+#: ../admin/class-quiz-maker-admin.php:175
+#: ../admin/class-quiz-maker-admin.php:297
+#: ../admin/partials/quiz-maker-admin-display.php:35
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:10
+msgid "Quiz Categories"
+msgstr "Quiz Categories"
+
+#: ../admin/class-quiz-maker-admin.php:198
+msgid "Settings"
+msgstr "Settings"
+
+#: ../admin/class-quiz-maker-admin.php:199
+msgid "Demo"
+msgstr "Demo"
+
+#: ../admin/class-quiz-maker-admin.php:200
+msgid "BUY NOW"
+msgstr "BUY NOW"
+
+#: ../admin/class-quiz-maker-admin.php:284
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:10
+msgid "Quizzes"
+msgstr "Quizzes"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:4
+msgid "Add Image"
+msgstr "Add Image"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:20
+msgid "Add new question"
+msgstr "Add new question"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:23
+msgid "Edit question"
+msgstr "Edit question"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:38
+msgid "Edit Image"
+msgstr "Edit Image"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:46
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:90
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:123
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:157
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:205
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:9
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:409
+msgid "Question"
+msgstr "Question"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:55
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:9
+msgid "Question Category"
+msgstr "Question Category"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:67
+#: ../admin/partials/questions/actions/quiz-maker-questions-categories-actions.php:37
+#: ../admin/partials/quizes/actions/quiz-maker-quiz-categories-actions.php:37
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:69
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:212
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:412
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:210
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:297
+msgid "Status"
+msgstr "Status"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:70
+msgid "Publish"
+msgstr "Publish"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:72
+msgid "Unpublish"
+msgstr "Unpublish"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:78
+msgid "Question Type"
+msgstr "Question Type"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:81
+msgid "Radio"
+msgstr "Radio"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:82
+msgid "Checkbox( Multiple )"
+msgstr "Checkbox( Multiple )"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:83
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:88
+msgid "Answers"
+msgstr "Answers"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:97
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:185
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:89
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:122
+msgid "Ordering"
+msgstr "Ordering"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:98
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:186
+msgid "Correct"
+msgstr "Correct"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:99
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:187
+msgid "Answer"
+msgstr "Answer"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:100
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:188
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:93
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:126
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:184
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:242
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:374
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:443
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:182
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:240
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:254
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:328
+msgid "Delete"
+msgstr "Delete"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-actions.php:196
+msgid "Save Question"
+msgstr "Save Question"
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-categories-actions.php:13
+#: ../admin/partials/quizes/actions/quiz-maker-quiz-categories-actions.php:13
+msgid "Add new category"
+msgstr ""
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-categories-actions.php:16
+#: ../admin/partials/quizes/actions/quiz-maker-quiz-categories-actions.php:16
+msgid "Edit category"
+msgstr ""
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-categories-actions.php:29
+#: ../admin/partials/quizes/actions/quiz-maker-quiz-categories-actions.php:29
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:44
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:210
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:208
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:293
+msgid "Title"
+msgstr ""
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-categories-actions.php:33
+#: ../admin/partials/quizes/actions/quiz-maker-quiz-categories-actions.php:33
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:48
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:211
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:209
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:294
+msgid "Description"
+msgstr ""
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-categories-actions.php:41
+#: ../admin/partials/quizes/actions/quiz-maker-quiz-categories-actions.php:41
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:72
+msgid "Publish "
+msgstr ""
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-categories-actions.php:43
+#: ../admin/partials/quizes/actions/quiz-maker-quiz-categories-actions.php:43
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:74
+msgid "Unpublish "
+msgstr ""
+
+#: ../admin/partials/questions/actions/quiz-maker-questions-categories-actions.php:48
+#: ../admin/partials/quizes/actions/quiz-maker-quiz-categories-actions.php:48
+msgid "Save Category"
+msgstr ""
+
+#: ../admin/partials/questions/quiz-maker-question-categories-display.php:14
+#: ../admin/partials/questions/quiz-maker-questions-display.php:14
+#: ../admin/partials/quizes/quiz-maker-quiz-categories-display.php:5
+#: ../admin/partials/quizes/quiz-maker-quizes-display.php:14
+msgid "Add New"
+msgstr ""
+
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:18
+msgid "Add new quiz"
+msgstr ""
+
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:21
+msgid "Edit quiz"
+msgstr ""
+
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:52
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:159
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:207
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:410
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:295
+msgid "Category"
+msgstr ""
+
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:91
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:124
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:158
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:206
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:411
+msgid "Type"
+msgstr ""
+
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:92
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:125
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:213
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:413
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:211
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:298
+msgid "ID"
+msgstr ""
+
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:135
+msgid "Save Quiz"
+msgstr ""
+
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:145
+#: ../admin/partials/quizes/actions/quiz-maker-quizes-actions.php:216
+msgid "Select questions"
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:129
+msgid "There are no question categories yet."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:183
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:373
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:181
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:253
+msgid "Edit"
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:193
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:392
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:191
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:272
+msgid "Published"
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:196
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:395
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:194
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:275
+msgid "Unublished"
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:320
+msgid "Question category created."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:322
+msgid "Question category saved."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-question-categories-list-table.php:324
+msgid "Question category deleted."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:318
+msgid "There are no questions yet."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:521
+msgid "Question created."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:523
+msgid "Question saved."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-questions-list-table.php:525
+msgid "Question deleted."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:9
+msgid "Quiz Category"
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:127
+msgid "There are no quiz categories yet."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:319
+msgid "Quiz category created."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:321
+msgid "Quiz category saved."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quiz-categories-list-table.php:323
+msgid "Quiz category deleted."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:9
+msgid "Quiz"
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:197
+msgid "There are no quizzes yet."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:296
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:408
+msgid "Quiz created."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:410
+msgid "Quiz saved."
+msgstr ""
+
+#: ../includes/lists/class-quiz-maker-quizes-list-table.php:412
+msgid "Quiz deleted."
+msgstr ""
+
+#: ../public/class-quiz-maker-public.php:325
+#: ../public/class-quiz-maker-public.php:332
+msgid "Thank you for your time"
+msgstr ""
+
+#: ../quiz-maker.php:98 ../quiz-maker.php:113
+msgid ""
+"Enjoy our Quiz Maker plugin? Could you please do me a BIG favor and give it "
+"a 5-star rating on <a href=\"https://wordpress.org/plugins/quiz-maker/"
+"\">WordPress</a>? Just to help us spread the word and boost our motivation."
+msgstr ""
+
+#: ../quiz-maker.php:101 ../quiz-maker.php:116
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: ../quiz-maker.php:102 ../quiz-maker.php:117
+msgid "Nope, maybe later"
+msgstr ""
+
+#: ../quiz-maker.php:103 ../quiz-maker.php:118
+msgid "I already did"
+msgstr ""

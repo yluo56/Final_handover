@@ -1,0 +1,35 @@
+==08/28/2019 10:24:06 am Joy_Of_Text_Plugin::install||Run dbdelta for wp_jot_groups Return : Array
+(
+    [wp_jot_groups] => Created table wp_jot_groups
+)
+
+==08/28/2019 10:24:06 am Joy_Of_Text_Plugin::install||Run dbdelta for wp_jot_groupmembers Return : Array
+(
+    [wp_jot_groupmembers] => Created table wp_jot_groupmembers
+)
+
+==08/28/2019 10:24:06 am Joy_Of_Text_Plugin::install||Run dbdelta for wp_jot_groupinvites Return : Array
+(
+    [wp_jot_groupinvites] => Created table wp_jot_groupinvites
+)
+
+==08/28/2019 10:24:06 am Joy_Of_Text_Plugin::install||Run dbdelta for wp_jot_messages Return : Array
+(
+    [wp_jot_messages] => Created table wp_jot_messages
+)
+
+==08/28/2019 10:24:06 am Joy_Of_Text_Plugin::install||Run dbdelta for wp_jot_messagequeue Return : Array
+(
+    [wp_jot_messagequeue] => Created table wp_jot_messagequeue
+)
+
+==08/28/2019 10:24:06 am Joy_Of_Text_Plugin::install||Run dbdelta for wp_jot_groupmeta Return : Array
+(
+    [wp_jot_groupmeta] => Created table wp_jot_groupmeta
+)
+
+==08/28/2019 10:24:06 am Joy_Of_Text_Plugin::install||Run dbdelta for wp_jot_groupmemxref Return : Array
+(
+    [wp_jot_groupmemxref] => Created table wp_jot_groupmemxref
+)
+

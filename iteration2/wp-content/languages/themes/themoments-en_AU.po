@@ -1,0 +1,428 @@
+# Translation of Themes - TheMoments in English (Australia)
+# This file is distributed under the same license as the Themes - TheMoments package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-28 03:01:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_AU\n"
+"Project-Id-Version: Themes - TheMoments\n"
+
+#. Theme Name of the plugin/theme
+msgid "TheMoments"
+msgstr "TheMoments"
+
+#: inc/customizer.php:59 inc/customizer.php:124 inc/customizer.php:165
+#: inc/customizer.php:234 inc/customizer.php:285 inc/customizer.php:337
+#: inc/customizer.php:388
+msgid "Display?"
+msgstr "Display?"
+
+#: inc/demo-content.php:61
+msgid "Video Demonstration"
+msgstr "Video Demonstration"
+
+#: inc/demo-content.php:60
+msgid "Download Demo Data"
+msgstr "Download Demo Data"
+
+#: inc/customizer.php:458
+msgid "Section Ordering"
+msgstr "Section Ordering"
+
+#: inc/customizer.php:427
+msgid "instagram"
+msgstr "instagram"
+
+#: inc/customizer.php:427
+msgid "youtube"
+msgstr "youtube"
+
+#: trt-customize-pro/themoments/class-customize.php:77
+msgid "Upgrade to Pro"
+msgstr "Upgrade to Pro"
+
+#: inc/woocommerce-functions.php:57
+msgid "Sidebar displaying only in woocommerce pages."
+msgstr "Sidebar displaying only in woocommerce pages."
+
+#: inc/woocommerce-functions.php:55
+msgid "Shop Sidebar"
+msgstr "Shop Sidebar"
+
+#: inc/demo-content.php:59
+msgid "How to use"
+msgstr "How to use"
+
+#: inc/demo-content.php:58
+msgid "Theme Details"
+msgstr "Theme Details"
+
+#: inc/demo-content.php:57 inc/demo-content.php:58 inc/demo-content.php:59
+#: inc/demo-content.php:60 inc/demo-content.php:61
+msgid "Click Here"
+msgstr "Click Here"
+
+#: inc/demo-content.php:57
+msgid "Theme Demo"
+msgstr "Theme Demo"
+
+#: inc/demo-content.php:46
+msgid "Check out step-by-step tutorial to create your website like the demo of TheMoments WordPress theme."
+msgstr "Check out step-by-step tutorial to create your website like the demo of TheMoments WordPress theme."
+
+#: inc/demo-content.php:35
+msgid "Demo and Documentation"
+msgstr "Demo and Documentation"
+
+#: index.php:21 template-home.php:13
+msgid "Theme For Photography"
+msgstr "Theme For Photography"
+
+#: index.php:20 template-home.php:12
+msgid "The Moments"
+msgstr "The Moments"
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "Front Page"
+
+#. Template Name of the plugin/theme
+msgid "No Featured Image"
+msgstr "No Featured Image"
+
+#: trt-customize-pro/themoments/class-customize.php:76
+msgid "TheMoments Pro"
+msgstr "TheMoments Pro"
+
+#. Template Name of the plugin/theme
+msgid "Fullwidth page"
+msgstr "Fullwidth page"
+
+#: template-parts/content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your fossick terms. Please try again with some different keywords."
+
+#: template-parts/content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: template-parts/content-blogs.php:16
+msgid "comments"
+msgstr "comments"
+
+#: template-parts/content-blogs.php:16 template-parts/content-single.php:20
+msgid "one comment"
+msgstr "one comments"
+
+#: template-parts/content-blogs.php:16 template-parts/content-single.php:20
+msgid "zero comment"
+msgstr "zero comment"
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found."
+msgstr "Nothing Found."
+
+#: template-home.php:321
+msgid "Client"
+msgstr "Clients"
+
+#: template-home.php:202
+msgid "View All"
+msgstr "View All"
+
+#: template-home.php:139
+msgid "Next"
+msgstr "Next"
+
+#: template-home.php:135
+msgid "Previous"
+msgstr "Previous"
+
+#: template-home.php:119
+msgid "Know More"
+msgstr "Know More"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Fossick Results for: %s"
+
+#: index.php:47 template-home.php:37 template-home.php:58
+#: template-parts/content-blogs.php:36 template-parts/content.php:21
+msgid "Read More"
+msgstr "Read More"
+
+#: inc/template-tags.php:70 no-featureimage.php:35
+#: template-parts/content-page.php:32
+msgid "Edit"
+msgstr "Edit"
+
+#: inc/template-tags.php:66
+msgid "% Comments"
+msgstr "% Comments"
+
+#: inc/template-tags.php:66
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: inc/template-tags.php:66
+msgid "Leave a comment"
+msgstr "Leave a comment"
+
+#: inc/template-tags.php:60
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#: inc/template-tags.php:54
+msgid "Posted in %1$s"
+msgstr "Posted in %1$s"
+
+#: no-featureimage.php:26 template-parts/content-page.php:23
+#: template-parts/content-single.php:36
+msgid "Pages:"
+msgstr "Pages"
+
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr "by %s"
+
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Posted on %s"
+
+#: inc/customizer.php:431
+msgid "Social Info"
+msgstr "Social Info"
+
+#: inc/customizer.php:378
+msgid "Select the Category for Client Section in Homepage"
+msgstr "Select the Category for Client Section in Homepage"
+
+#: inc/customizer.php:377
+msgid "Client Categories"
+msgstr "Client Categories"
+
+#: inc/customizer.php:327
+msgid "Select the Category for Crew Member Section in Homepage"
+msgstr "Select the Category for Crew Member Section in Homepage"
+
+#: inc/customizer.php:326
+msgid "Crew Members Categories"
+msgstr "Crew Members Categories"
+
+#: inc/customizer.php:275
+msgid "Select the Category for Testimonial Section in Homepage"
+msgstr "Select the Category for Testimonial Section in Homepage"
+
+#: inc/customizer.php:274
+msgid "Testimonial Categories"
+msgstr "Testimonial Categories"
+
+#: inc/customizer.php:260 inc/customizer.php:310 inc/customizer.php:361
+#: inc/customizer.php:414
+msgid "Choose category"
+msgstr "Choose category"
+
+#: inc/customizer.php:224
+msgid "Select the Category for Features Section in Homepage"
+msgstr "Select the Category for Features Section in Homepage"
+
+#: inc/customizer.php:223
+msgid "Features Categories"
+msgstr "Features Categories"
+
+#: inc/customizer.php:208
+msgid "Select Page For slider 3"
+msgstr "Select Page For slider 3"
+
+#: inc/customizer.php:193
+msgid "Select Page For slider 2"
+msgstr "Select Page For slider 2"
+
+#: inc/customizer.php:178
+msgid "Select Page For Slider 1"
+msgstr "Select Page For Slider 1"
+
+#: inc/customizer.php:155
+msgid "Select pages for Slider Section"
+msgstr "Select pages for Slider Section"
+
+#: inc/customizer.php:154
+msgid "Slider Section"
+msgstr "Slider Section"
+
+#: inc/customizer.php:138
+msgid "Select Page For About"
+msgstr "Select Page For About"
+
+#: inc/customizer.php:114
+msgid "Select pages for About Section"
+msgstr "Select pages for About Section"
+
+#: inc/customizer.php:113
+msgid "About Section"
+msgstr "About Section"
+
+#: inc/customizer.php:98
+msgid "Add a Link"
+msgstr "Add a Link"
+
+#: inc/customizer.php:85
+msgid "Add a description"
+msgstr "Add a description"
+
+#: inc/customizer.php:72
+msgid "Add a Title"
+msgstr "Add a Title"
+
+#: inc/customizer.php:28
+msgid "Header / Banner"
+msgstr "Header / Banner"
+
+#: inc/class.php:43
+msgid "Select"
+msgstr "Select"
+
+#: header.php:30
+msgid "Toggle navigation"
+msgstr "Toggle navigation"
+
+#: functions.php:184
+msgid "Contact Widget"
+msgstr "Contact Widget"
+
+#: functions.php:182
+msgid "Footer Two"
+msgstr "Footer Two"
+
+#: functions.php:175
+msgid "Instagram Widget"
+msgstr "Instagram Widget"
+
+#: functions.php:173
+msgid "Footer One"
+msgstr "Footer One"
+
+#: functions.php:163
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:46
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: functions.php:45
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: footer.php:33
+msgid "The Bootstrap Themes"
+msgstr "The Bootstrap Themes"
+
+#: footer.php:33
+msgid "Theme by"
+msgstr "Theme by"
+
+#: footer.php:33
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:33
+msgid "Powered by"
+msgstr "Powered by"
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:45 comments.php:66
+msgid "Newer Comments"
+msgstr "Newer Comments"
+
+#: comments.php:44 comments.php:65
+msgid "Older Comments"
+msgstr "Older Comments"
+
+#: comments.php:41 comments.php:62
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "One thought on &ldquo;%s&rdquo;"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a fossick?"
+
+#: 404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! That page can&rsquo;t be found."
+
+#: template-parts/content-single.php:20
+msgid "% comments"
+msgstr "% comments"
+
+#: template-parts/content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.  "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:52 inc/template-tags.php:58
+msgid ", "
+msgstr ", "
+
+#: inc/customizer.php:247 inc/customizer.php:297 inc/customizer.php:349
+#: inc/customizer.php:401
+msgid "Title"
+msgstr "Title"
+
+#: inc/customizer.php:427
+msgid "pinterest"
+msgstr "pinterest"
+
+#: inc/customizer.php:427
+msgid "linkedin"
+msgstr "linkedin"
+
+#: inc/customizer.php:427
+msgid "googleplus"
+msgstr "googleplus"
+
+#: inc/customizer.php:427
+msgid "twitter"
+msgstr "twitter"
+
+#: inc/customizer.php:427
+msgid "facebook"
+msgstr "facebook"
+
+#: inc/customizer.php:32 inc/customizer.php:33
+msgid "TheMoments Options"
+msgstr "TheMoments Options"
+
+#. Author URI of the plugin/theme
+msgid "http://thebootstrapthemes.com"
+msgstr "http://thebootstrapthemes.com"
+
+#. Author of the plugin/theme
+msgid "thebootstrapthemes"
+msgstr "thebootstrapthemes"
+
+#. Theme URI of the plugin/theme
+msgid "https://thebootstrapthemes.com/downloads/free-photography-bootstrap-wordpress-theme/"
+msgstr "https://thebootstrapthemes.com/downloads/free-photography-bootstrap-wordpress-theme/"
