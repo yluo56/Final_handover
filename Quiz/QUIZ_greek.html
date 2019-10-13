@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz</title>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript"></script>
+    <style type="text/css">
+        body{
+            font-size: 20px;
+        }
+    </style>
+	
+</head>
+
+<body>
+	<div class="grid">
+		<div id="quiz">
+				<div style="text-align: center;"> <p style="text-align: center;">
+    <strong><span style="font-size: 50px;">Test Your Greek Knowledge Now!</span></strong>
+</p>
+					<button id="start" class="btn btn-success btn-lg">START</button></div>
+			
+		</div>
+	</div>
+
+	<script>
+    
+    class Quiz {
+        constructor(questions) {
+            this.question = questions;
+            this.score = 0;
+        }
+    }
+
+    class Question {
+        constructor(text, choices, feedback, url, source='') {
+            this.text = text;
+            this.choices = choices;
+            this.feedback = feedback;
+            this.graphUrl = url;
+            this.source = source
+            //this.score = score
+        }
+    }
+
+    class Choice {
+        constructor(text, score) {
+            this.text = text;
+            this.score = score;
+        }
+    }
+
+    //Question1
+    var q1Choices = [new Choice("A. A pen", 0),
+    new Choice("B. A coin", 1),
+    new Choice("C. A peanut", 0),
+    new Choice("D. A flower ", 0)];
+    var feedback1 = "Vasilopita is a traditional cake/bread in New Year’s Day. After baking the vasilopita, a coin will be hidden in the cake when the persons who find the coin presents it would get a good luck in the following years.";
+    var url1 = "";
+    var question1 = new Question("Finding a coin in New year cake is lucky.In New Year’s Day, what will Greece insert into their traditional breads (Vasilopita)?", q1Choices, feedback1, url1);
+
+
+    ///Question2
+    var q2Choices = [new Choice("A. Ice cream", 1),
+    new Choice("B.  Olive pie", 0),
+    new Choice("C.  Honey & Baklava", 0),
+    new Choice("D.  Churros", 0)];
+    var feedback2 = "The honey baklava, which with combination of olive and honey, is flaky, crisp and tender snack.";
+    var url2 = "";
+    var question2 = new Question("What’s the favorite sweet in Greek?", q2Choices, feedback2, url2);
+
+
+    //Question3
+    var q3Choices = [new Choice("A. Thor", 0),
+    new Choice("B. Thanos", 0),
+    new Choice("C. Ragnaros", 0),
+    new Choice("D. Zeus ", 1)];
+    var feedback3 = "Zeus, an allfather who rules as king of the gods of Mount Olympus, is the sky and thunder god in ancient Greek religion.";
+    var url3 = "";
+    var source3 = '';
+    var question3 = new Question("Greece legend have lots of gods and goddess who have super power as Marvel comic book, do you know which following god is most famous in Greek?", q3Choices, feedback3, url3, source3);
+
+    //Question4
+    var q4Choices = [new Choice("A. The saint’s celebration day", 1),
+    new Choice("B.  The day of they were born.", 0),
+    new Choice("C.  They do not celebrate their birthday.", 0)];
+    var feedback4 = "According to Greek traditions, people will consider the Christian saint or martyr celebration day as their birthday. Once a Greek name after from a saint, that saint’s celebration day would become their “name day”, which much like actual birthday.";
+    var url4 = "";
+    var source4 = '';
+    var question4 = new Question("When Greek celebrate their birthday?", q4Choices, feedback4, url4, source4);
+
+
+    //Question5
+    var q5Choices = [new Choice("A. True", 1),
+    new Choice("B. False", 0)];
+    var feedback5 = "True, the first ancient Olympic Games was held in776 BC in Greece’s southwest coast. The ancient Olympic Games were part of festival in honor of god.";
+    var url5 = "";
+    var question5 = new Question("Is it true that Olympics game originate from Ancient Greek?", q5Choices, feedback5, url5)
+
+
+
+    //Quiz
+    var allQuestions = [question1, question2, question3, question4, question5];
+    
+    var myQuiz = new Quiz(allQuestions);
+    var index = 0
+  
+
+    function showFinalResult() {
+        var endProgress = document.getElementById("progress");
+        endProgress.innerHTML = "";
+        var gameOverHTML = "<div id='result' style='display:none'>"
+        if ( myQuiz.score > 4 ){
+            gameOverHTML += "<h1>Great! It seem you’re familiar with your cultures!</h1>"
+            gameOverHTML += "<h2 id='score'> Your score: " + myQuiz.score + "</h2>";
+           
+        } else{
+            gameOverHTML +=  "<h1>Feeling confused? why not see others pages in our website!?</h1>"
+            gameOverHTML += "<h2 id='score'> Your score: " + myQuiz.score + "</h2>";
+          
+        };
+        gameOverHTML += '<div id="vizContainer"></div>'
+        gameOverHTML += '<div id="dataSource" align="center"></div>'
+        gameOverHTML += '<br><br><button class="btn btn-success" id="retry">RE-TRY</button></div>';
+        gameOverHTML += '<br><button id="end" class="btn btn-danger">FINISH</button></div><br>';
+
+
+        var element = document.getElementById("questions");
+        element.innerHTML = gameOverHTML;
+        $("#result").fadeIn("slow");
+        document.getElementById("retry").onclick = function () {
+            document.location.reload(false);
+        };
+        document.getElementById("end").onclick = function () {
+            window.location='https://retainourcultures.tk';
+        };
+
+       
+    };
+
+    function makeGuess(btnID, choice) {
+        // body...
+        var button = document.getElementById(btnID);
+        button.onclick = function () {
+            smoothScroll(document.getElementById('answer'));
+
+            document.getElementById("btn0").disabled = true;
+            document.getElementById("btn1").disabled = true;
+            document.getElementById("btn2").disabled = true;
+            document.getElementById("btn3").disabled = true;
+            var element = document.getElementById("answer");
+
+            
+            var choices = myQuiz.question[index].choices;
+            
+            var correctButton = document.getElementById("btn1");
+            for (var i = 0; i < choices.length; i++) {
+                if (choices[i].score !== 0) {
+                    correctButton = document.getElementById("btn" + i);
+                    correctButton.style.color = "green"
+                }
+            }
+            var feedbackHTML = ""
+            if (choice.score !== 0) {
+                feedbackHTML = "<div id='feedBack' ><h3>Correct!</h3>" + myQuiz.question[index].feedback;
+            }
+            else {
+                button.style.color = "red";
+                feedbackHTML = "<div id='feedBack' ><h3>You Could Do Better!</h3>" + myQuiz.question[index].feedback;
+            }
+            
+            feedbackHTML += '<br><br><button id="quit" class="btn btn-danger" >QUIT</button>';
+            feedbackHTML += '<button id="next" style="float:right" class="btn btn-success">NEXT</button></div>';
+            
+            element.innerHTML = feedbackHTML;
+            $("#feedBack").fadeIn("slow");
+            
+            document.getElementById("quit").onclick = function(){
+                window.location='https://retainourcultures.tk';
+            }
+
+            var next = document.getElementById("next");
+
+          
+
+            next.onclick = function () {
+                smoothScroll(document.getElementById('questions'));
+                myQuiz.score += choice.score;
+                index += 1;
+                button.style.color = "";
+                correctButton.style.color = "";
+               
+                populate();
+            }
+        }
+    }
+
+    function showProgress() {
+        var currentQuestionNumber = index + 1;
+        var element = document.getElementById("progress");
+        element.innerHTML = "Question " + currentQuestionNumber + " of " + myQuiz.question.length;
+    };
+
+    function clearAnswer() {
+        //clear answer
+        var element = document.getElementById("answer");
+        element.innerHTML = "";
+        document.getElementById("btn0").disabled = false;
+        document.getElementById("btn1").disabled = false;
+        document.getElementById("btn2").disabled = false;
+        document.getElementById("btn3").disabled = false;
+    }
+
+    function populate() {
+        clearAnswer();
+        if (index < myQuiz.question.length) {
+            //show question
+            var element = document.getElementById("question");
+            element.innerHTML = myQuiz.question[index].text;
+
+            //show buttons
+            for (var i = 0; i < 4; i++) {
+                var element = document.getElementById("btn" + i);
+                
+            }
+
+            //show choices
+            var choices = myQuiz.question[index].choices;
+            for (var i = 0; i < choices.length; i++) {
+                var element = document.getElementById("choice" + i);
+                element.innerHTML = choices[i].text;
+                makeGuess("btn" + i, choices[i]);
+            }
+            // hide buttons
+            for (var i = choices.length; i < 4; i++) {
+               var element = document.getElementById("btn" + i);
+                element.style.display = "none";
+            }
+            showProgress();
+        }
+        else {
+            showFinalResult();
+        }
+    }
+
+    function showCoverPage(){
+        cover = document.getElementById("quiz")
+        var start = document.getElementById("start");
+        start.onclick = function (){
+            newhtml = '<div id="questions">'
+                    
+            newhtml += '<h3 id="question"></h3>'
+            newhtml += '<hr style="margin-bottom: 5px">'
+
+            newhtml += '<div>'
+            newhtml += '    <button id="btn0" style="width:400px; text-align: center" class="btn btn-info btn-lg btn-block"><span'
+            newhtml += '            id="choice0"></span></button><br><br>'
+            newhtml += '    <button id="btn1" style="width:400px; text-align: center" class="btn btn-info btn-lg btn-block"><span'
+            newhtml += '            id="choice1"></span></button><br><br>'
+            newhtml += '    <button id="btn2" style="width:400px; text-align: center" class="btn btn-info btn-lg btn-block"><span'
+            newhtml += '            id="choice2"></span></button><br><br>'
+            newhtml += '    <button id="btn3" style="width:400px; text-align: center" class="btn btn-info btn-lg btn-block"><span'
+            newhtml += '            id="choice3"></span></button>'
+            newhtml += '</div>'
+            
+            newhtml += '<br>'
+            newhtml += '<div id="answerWindow">'
+            newhtml += '    <p id="answer"></p>'
+            newhtml += '</div>'
+            newhtml += '</div>'
+            newhtml += '<hr style="margin-top: 10px">'
+            newhtml += '<p id="progress">Question x of y</p>'
+            cover.innerHTML = newhtml
+            populate();
+        }
+    }
+
+    window.smoothScroll = function(target) {
+        var scrollContainer = target;
+        do { //find scroll container
+            scrollContainer = scrollContainer.parentNode;
+            if (!scrollContainer) return;
+            scrollContainer.scrollTop += 1;
+        } while (scrollContainer.scrollTop == 0);
+        
+        var targetY = 0;
+        do { //find the top of target relatively to the container
+            if (target == scrollContainer) break;
+            targetY += target.offsetTop;
+        } while (target = target.offsetParent);
+        
+        scroll = function(c, a, b, i) {
+            i++; if (i > 30) return;
+            c.scrollTop = a + (b - a) / 30 * i;
+            setTimeout(function(){ scroll(c, a, b, i); }, 20);
+        }
+        // start scrolling
+        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+
+    showCoverPage();
+
+
+
+</script>
+	
+</body>
+
+</html>
