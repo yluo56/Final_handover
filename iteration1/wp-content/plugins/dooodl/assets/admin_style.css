@@ -1,0 +1,99 @@
+#dooodl-dashboard-widget .dooodl-list .dooodl-item{
+	border: 1px solid #eee;
+	padding: 15px;
+}
+
+#dooodl-dashboard-widget .dooodl-list .dooodl-item:after{
+	clear: both;
+	display: table;
+	content: '';
+	width: 100%;
+	height: 1px;
+}
+
+#dooodl-dashboard-widget .dooodl-list .dooodl-item img.dooodl-img{
+	float: left;
+	margin-right: 20px;
+}
+
+#dooodl-dashboard-widget .dooodl-list .dooodl-item .dooodl-info,
+#dooodl-dashboard-widget .dooodl-list .dooodl-item .dooodl-date,
+#dooodl-dashboard-widget .dooodl-list .dooodl-item .dooodl-state{
+	margin-top: 0;
+}
+
+#dooodl-dashboard-widget .dooodl-list .dooodl-item .dooodl-date,
+#dooodl-dashboard-widget .dooodl-list .dooodl-item .dooodl-state{
+	margin-bottom: 0;
+}
+
+#dooodl-dashboard-widget .dooodl-list .dooodl-item .dooodl-description{
+	font-style: italic;
+}
+
+#dooodl-dashboard-widget .dooodl-list .dooodl-item .dooodl-author{
+	font-weight: bold;
+}
+
+#toplevel_page_dooodl-overview .wp-submenu .wp-first-item + li{
+	display: none;
+}
+
+.dooodl-wrapper{
+	background: #ECECEC;
+	border: 1px solid #CCC;
+	padding: 0 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.dooodl-list{
+	list-style-type: disc; 
+	padding-left: 20px;
+}
+
+.dooodl-hidden{
+	display: none;
+}
+
+.dooodl-progress-holder{
+	display: block; 
+	width: 100%; 
+	background-color: #eeeeee; 
+	border: 1px solid #cccccc; 
+	border-radius: 2px; 
+	overflow: hidden;
+}
+
+.dooodl-progress-bar{
+	width: 0%; 
+	background-color: #00b9eb; 
+	height: 20px; 
+	transition: all 0.3s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.dooodl-progress-details {
+	display: block; font-size: 11px;
+}
+
+.dooodl-panel--progress{
+	border-left-color: #ff9900 !important;
+}
+
+.dooodl-progress-information{
+	text-align: center;
+}
+
+.dooodl-label {
+	font-weight: bold;
+}
+
+.dooodl-migration-manager-perform-migration .dooodl-spinner{
+	margin-right: 5px; 
+	display: inline-block; 
+	width: auto; 
+	height: 16px;
+}

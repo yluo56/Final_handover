@@ -1,0 +1,395 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body{
+	background-color:#AAAAAA;
+}
+
+a,a:link,a:visited,a:active,a:hover{
+	text-decoration:none;
+	outline:none;
+}
+
+canvas{
+	cursor:none;
+}
+
+canvas.ie{
+	cursor:crosshair;
+}
+
+#form{
+	position:absolute;
+	left:180px;
+	top:84px;
+	display:none;
+	z-index:2000;
+	width:530px;
+}
+
+#form ul li{
+	vertical-align:top;
+	margin-bottom:5px;
+}
+
+#form ul li.name{
+	margin-left:-12px;
+}
+
+#form ul li.title{
+	margin-left:-20px;
+}
+
+#form ul li.url{
+	margin-left:-40px;
+}
+
+#form ul li.description{
+	margin-left:5px;
+}
+
+#form input[type=text]{
+	margin-top:2px;
+	
+}
+
+#form input[type=text],textarea{
+	vertical-align:top;
+	background-color:#ccc;
+	color:#222222;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:3px;
+	outline:none !important;
+	border:none;
+	width:280px;
+	padding:6px;
+	font-size:13px;
+}
+
+#form textarea{
+	height:65px;
+	resize: none;
+}
+
+#form label{
+	color:#ffffff;
+	width:200px;
+	display:inline-block;
+	text-align:right;
+	line-height:16px;
+	cursor:default;
+}
+
+#form label span{
+	display:inline-block;
+	background-color:#000000;
+	font-size:11px;
+	text-align:right;
+	margin-top:0px;
+	font-weight:200;
+	padding:2px;
+}
+
+#form label span.title{
+	font-size:16px;
+	text-transform:lowercase;
+	color:#cccccc;
+	
+}
+
+#form label span.sub{
+	color:#ffffff;
+	line-height:11px;
+}
+
+#container{
+	background-color:#222222;
+	width:700px;
+	height:390px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-355px;
+	margin-top:-200px;
+	border:7px solid #FFFFFF;
+	-webkit-box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow:    2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	box-shadow:         2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#brushholder{
+	background-repeat:no-repeat;
+	display:block;
+	position:absolute;
+	z-index:50000;
+	pointer-events:none;
+}
+
+#brushholder.ie{
+	display:none !important;
+	width:0px !important;
+	height:0px !important;
+	visibility:hidden !important;
+	overflow:none !important;
+	top:-5000px !important;
+	left:-5000px !important;
+}
+
+#left{
+	width:330px;
+	display:inline-block;
+	float:left;
+	padding:10px;
+	height:370px;
+}
+
+#right{
+	float:right;
+	width:330px;
+	display:inline-block;
+	padding:10px;
+	height:370px;
+}
+
+#canvas{
+	position:absolute;
+	top:90px;
+	left:40px;
+	border:2px solid #000000;
+	z-index:2000;
+	-webkit-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.17);
+	-moz-box-shadow:    1px 2px 2px 0px rgba(0, 0, 0, 0.17);
+	box-shadow:         1px 2px 2px 0px rgba(0, 0, 0, 0.17);
+}
+
+#logo{
+	width:150px;
+	height:80px;
+	position:absolute;
+	top:44px;
+	left:28px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	z-index:1000;
+}
+
+#brush{
+	position:absolute;
+	top:92px;
+	left:340px;
+}
+#brush ul li a{
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+#brush ul li a#round_1{
+	background-image:url(../images/brush_round_1.png);
+}
+
+#brush ul li a#round_2{
+	background-image:url(../images/brush_round_2.png);
+}
+
+#brush ul li a#round_3{
+	background-image:url(../images/brush_round_3.png);
+}
+
+#brush ul li a#round_4{
+	background-image:url(../images/brush_round_4.png);
+}
+
+#brush ul li a#round_5{
+	background-image:url(../images/brush_round_5.png);
+}
+
+
+
+
+#brush ul li a#rect_1{
+	background-image:url(../images/brush_rect_1.png);
+}
+
+#brush ul li a#rect_2{
+	background-image:url(../images/brush_rect_2.png);
+}
+
+#brush ul li a#rect_3{
+	background-image:url(../images/brush_rect_3.png);
+}
+
+#brush ul li a#rect_4{
+	background-image:url(../images/brush_rect_4.png);
+}
+
+#brush ul li a#rect_5{
+	background-image:url(../images/brush_rect_5.png);
+}
+
+
+
+#brush ul{
+	float:left;
+	margin-right:20px;
+}
+
+#brush ul li{
+	margin-bottom:12px;
+}
+
+ul, ul li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#color ul{
+	position:absolute;
+	top:105px;
+	left:455px;
+	width:190px;
+}
+
+#color ul li{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	margin-right:11px;
+	margin-bottom:16px;
+}
+
+#color ul li a{
+	display:block;
+	width:15px;
+	height:15px;
+	/*
+	-webkit-box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.2);
+	-moz-box-shadow:    0px 0px 2px 2px rgba(255, 255, 255, 0.2);
+	box-shadow:         0px 0px 2px 2px rgba(255, 255, 255, 0.2);
+	*/
+}
+
+#brushlabel{
+	display:block;
+	position:absolute;
+	top:170px;
+	left:-34px;
+	width:74px;
+	height:32px;
+	background-image:url(../images/brush.png);
+}
+
+#colorlabel{
+	display:block;
+	position:absolute;
+	top:59px;
+	left:535px;
+	width:125px;
+	height:56px;
+	background-image:url(../images/colors.png);
+}
+
+#btnSave{
+	display:block;
+	position:absolute;
+	top:300px;
+	left:475px;
+	width:168px;
+	height:62px;
+	background-image:url(../images/saveit.png);
+	background-position:0px 0px;
+}
+
+#btnOk{
+	display:block;
+	position:absolute;
+	top:210px;
+	left:350px;
+	width:128px;
+	height:62px;
+	background-image:url(../images/ok.png);
+	background-position:0px 0px;
+}
+
+#btnBack{
+	display:block;
+	position:absolute;
+	top:220px;
+	left:150px;
+	width:190px;
+	height:59px;
+	background-image:url(../images/goback.png);
+	background-position:0px 0px;
+}
+
+#btnReset{
+	display:block;
+	position:absolute;
+	top:300px;
+	left:330px;
+	width:168px;
+	height:50px;
+	background-image:url(../images/reset.png);
+	background-position:0px -20px;
+}
+
+#btnSave:hover{
+	background-position:0px -63px;
+}
+
+#btnReset:hover{
+	background-position:0px -72px;
+}
+
+#btnBack:hover{
+	background-position:0px -69px;
+}
+
+#btnOk:hover{
+	background-position:0px -62px;
+}
+
+#success{
+	color:#ffffff;
+	display:none;
+	background-image:url(../images/thankyou.png);
+	width:300px;
+	height:250px;
+	margin-top:60px;
+	margin-left:-15px;
+}
+
+#waiting{
+	display:none;
+}
+
+#waiting #indicator{
+	color:#ffffff;
+	background-image:url(../images/indicator.gif);
+	width:50px;
+	height:50px;
+	margin-top:140px;
+	margin-left:100px;
+	background-repeat:no-repeat;
+}
+
+#waiting #message{
+	color:#ffffff;
+	background-image:url(../images/waiting.png);
+	width:280px;
+	height:120px;
+	margin-top:0px;
+	background-repeat:no-repeat;
+	background-position:-20px 0px;
+}

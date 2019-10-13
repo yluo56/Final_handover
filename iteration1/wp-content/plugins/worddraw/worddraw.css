@@ -1,0 +1,80 @@
+drawform#comment-image {
+    border: 1px solid gray;
+    margin: 5px;
+}
+drawform#comment {
+    border: 1px solid gray;
+    margin: 5px 0 0 0;
+}
+#fillColorPickerDiv,
+#strokeColorPickerDiv {
+    /*top: 50px;*/
+}
+#fillColorPickerDiv {
+    /*left: 350px;*/
+}
+#wd-default-notes,
+#comment-text {
+    display: none;
+}
+#wd-toolbar-buttons input[type="button"] {
+    min-width: 0; /* fix for IE8 */
+    border-width: 1px;
+    border-style: solid;
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+}
+#wd-toolbar input[type="checkbox"] {
+    width: 1em;
+}
+#wd-toolbar-common {
+}
+#wd-toolbar-tool {
+}
+#wd-toolbar-common input[type="text"],
+#wd-toolbar-tool input[type="text"] {
+    width: 50px;
+    height: 23px;
+}
+#wd-toolbar-common label {
+    white-space:nowrap;
+}
+#wd-toolbar-common input#fill-color,
+#wd-toolbar-common input#stroke-color {
+    width: 6em;
+}
+#wd-toolbar-common input#stroke-opacity,
+#wd-toolbar-common input#fill-opacity,
+#wd-toolbar-common input#line-width {
+    width: 3em;
+}
+#wd-toolbar-tool input#image-url {
+    width: 75%;
+}
+#wd-toolbar-tool input#color-value {
+    width: 7em;
+}
+.wd-button {
+    width: 28px;
+    height: 28px;
+    border-color: #c3c3c3;
+}
+.wd-content {
+}
+.wd-container {
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+}
+.brush-shape {
+    cursor:pointer;
+}
+#respond {
+    margin: 0;
+}
+.logged-in-as {
+    padding-bottom: 8px;
+}
+.wd-powered {
+    font-size: .9em;
+}
